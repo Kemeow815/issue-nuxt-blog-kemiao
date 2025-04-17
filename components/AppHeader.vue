@@ -5,7 +5,7 @@ const repoIssuesPath = `https://github.com/${VITE_OWNER}/${VITE_BLOGS_REPO}/issu
 
 <template>
   <header class="max-w-73ch m-auto flex items-center justify-end gap-5% text-lg p-2em p-x-12">
-    <NuxtLink to="/blog" title="博客" class="transition-opacity op-70 hover:op-100">
+    <NuxtLink to="/blog" title="博文" class="transition-opacity op-70 hover:op-100">
       Blog
     </NuxtLink>
 
