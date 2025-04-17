@@ -14,7 +14,8 @@ onMounted(() => {
     theme: isDark ? 'github-dark' : 'github-light',
     crossorigin: 'anonymous',
   }
-  page.value = `https://utteranc.es/utterances.html?async=&src=https://utteranc.es/client.js&repo=issue-nuxt-blog-kemiao&theme=preferred-color-scheme&crossorigin=anonymous&url=${config.url}&origin=${config.origin}&pathname=${config.pathname}&issue-number=${config.issueNumber}`
+  page.value = `https://utteranc.es/utterances.html?async=&src=https://utteranc.es/client.js&repo=${config.repo}&theme=${config.theme}&crossorigin=${config.crossorigin}&url=${config.url}&origin=${config.origin
+}&pathname=${config.pathname}&issue-number=${config.issueNumber}`
 })
 </script>
 
