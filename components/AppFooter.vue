@@ -9,7 +9,7 @@ const { VITE_OWNER } = import.meta.env
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="underline mr-2" target="_blank" rel="noopener noreferrer">
           CC BY-NC-SA 4.0
         </a>
-        2023-PRESENT © {{ VITE_OWNER }}
+        2025-PRESENT © {{ VITE_OWNER }}
       </span>
     </div>
   </footer>

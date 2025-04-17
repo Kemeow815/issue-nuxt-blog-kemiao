@@ -1,15 +1,15 @@
 <script setup lang="ts">
 const { VITE_OWNER, VITE_BLOGS_REPO } = import.meta.env
-const repoIssuesPath = `https://github.com/${VITE_OWNER}`
+const repoIssuesPath = `https://github.com/${VITE_OWNER}/${VITE_BLOGS_REPO}/issues`
 </script>
 
 <template>
   <header class="max-w-73ch m-auto flex items-center justify-end gap-5% text-lg p-2em p-x-12">
-    <NuxtLink to="/blog/Blog" title="Blog" class="transition-opacity op-70 hover:op-100">
+    <NuxtLink to="/blog" title="博客" class="transition-opacity op-70 hover:op-100">
       Blog
     </NuxtLink>
 
-    <NuxtLink to="/" title="About" class="transition-opacity op-70 hover:op-100">
+    <NuxtLink to="/" title="关于我" class="transition-opacity op-70 hover:op-100">
       About
     </NuxtLink>
 
